@@ -12,6 +12,7 @@ import {
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
+const unUsed = 'abcd';
 const SIDEBAR_ITEMS = [
   { name: 'Overview', icon: BarChart2, color: '#6366f1', href: '/' },
   { name: 'Products', icon: ShoppingBag, color: '#8B5CF6', href: '/products' },
